@@ -1,0 +1,21 @@
+
+.bacImg{
+  background-image: url(//img/bac.webp);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.img::before{
+  content: '';
+  display: block;
+  padding-top: 50%;
+}
+.bacimgue{ 
+  position: absolute;
+  width: 100%;
+  bottom: 0; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+}

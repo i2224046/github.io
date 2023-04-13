@@ -1,0 +1,111 @@
+/*ヘッダー*/
+body {
+    margin: 0px;
+
+}
+
+#base {
+    color: #1e0955;
+    text-align: center;
+    width: auto;
+}
+
+
+/*メニュー*/
+
+#menu {
+    width: 100%;
+    height: 30px;
+    background-color: #1e0955;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu li {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#menu li a {
+    color: #e2daf8;
+    font-size: 125%;
+    display: block;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #1e0955;
+    background-color: #e2daf8;
+}
+
+
+/*タイトル*/
+
+#head {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 200%;
+    margin: 0%;
+}
+
+#p title {}
+
+
+/*本文*/
+
+p.textNormal {
+    font-size: 100%;
+}
+
+p.textNormal a {
+    color: #1e0955;
+    text-decoration: none;
+}
+
+p.textNormal a:hover {
+    background: #1e0955;
+    color: #e2daf8;
+    transition: all 0.25s ease;
+}
+
+/*画像*/
+
+ol {
+    background-color: #e2daf8;
+    color: #1e0955;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li.img img {
+    text-align: center;
+    object-fit: cover;
+    margin: 25px 25px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+li.img img:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.5s ease;
+}
+
+/*セル用*/
+table{
+    display: table-cell;
+    vertical-align: middle;
+    width: 600px;
+}
+
+/*コピーライト*/
+
+#copyRight {
+    font-size: 50%;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: #1e0955;
+}
